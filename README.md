@@ -17,7 +17,7 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode (don't to change config/typeorm-config.ts settings)
+# production mode (don't forget to change config/typeorm-config.ts settings)
 $ npm run start:prod
 ```
 
