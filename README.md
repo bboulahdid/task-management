@@ -17,7 +17,7 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
+# production mode (don't to change config/typeorm-config.ts settings)
 $ npm run start:prod
 ```
 
@@ -36,6 +36,6 @@ $ npm run test:cov
 
 ## Docker
 
-To run a `PostgreSQL` container :
+To run a `PostgreSQL` container locally :
 
 `docker run --name postgres-db -e POSTGRES_PASSWORD=Top2020 -p 5432:5432 -d postgres`
