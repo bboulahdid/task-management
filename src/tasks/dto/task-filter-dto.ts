@@ -8,5 +8,5 @@ export class TaskFilterDTO {
 
   @IsOptional()
   @IsIn(Object.values(TaskStatus))
-  status: string;
+  status: TaskStatus;
 }
